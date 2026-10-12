@@ -1,0 +1,27 @@
+﻿# Build output
+Debug/
+Release/
+x64/
+*.dll
+*.pdb
+*.ilk
+*.exp
+*.lib
+*.obj
+*.tlog
+*.lastbuildstate
+*.unsuccessfulbuild
+
+# Visual Studio
+.vs/
+*.user
+*.suo
+
+# Logs and runtime artifacts
+logs/
+*.log
+*.dmp
+crashbackup/
+
+# IDE / misc
+plan.md

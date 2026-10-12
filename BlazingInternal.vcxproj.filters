@@ -1,0 +1,199 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="4.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <ItemGroup>
+    <Filter Include="Source Files">
+      <UniqueIdentifier>{4FC737F1-C7A5-4376-A066-2A32D752A2FF}</UniqueIdentifier>
+      <Extensions>cpp;c;cc;cxx;c++;cppm;ixx;def;odl;idl;hpj;bat;asm;asmx</Extensions>
+    </Filter>
+    <Filter Include="Header Files">
+      <UniqueIdentifier>{93995380-89BD-4b04-88EB-625FBE52EBFB}</UniqueIdentifier>
+      <Extensions>h;hh;hpp;hxx;h++;hm;inl;inc;ipp;xsd</Extensions>
+    </Filter>
+    <Filter Include="Resource Files">
+      <UniqueIdentifier>{67DA6AB6-F800-4c08-8B7A-83BB121AAD01}</UniqueIdentifier>
+      <Extensions>rc;ico;cur;bmp;dlg;rc2;rct;bin;rgs;gif;jpg;jpeg;jpe;resx;tiff;tif;png;wav;mfcribbon-ms</Extensions>
+    </Filter>
+    <Filter Include="src">
+      <UniqueIdentifier>{9DBBCCAA-194A-470E-8B4E-C87DC8C7E020}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="src\core">
+      <UniqueIdentifier>{E761D576-F4E5-4B5E-A994-42F37967FEB6}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="src\sdk">
+      <UniqueIdentifier>{24FC7E0E-B3BD-4B48-8C5E-C72A71D96206}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="src\features">
+      <UniqueIdentifier>{C0F18654-525A-4651-839F-24203710595B}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="src\features\esp">
+      <UniqueIdentifier>{75D49937-1AC7-4D41-9F29-1D2A5F76D3E8}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="src\features\aim">
+      <UniqueIdentifier>{984BBDBA-4AE2-46EC-B141-D5B9928B8BB5}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="src\features\trigger">
+      <UniqueIdentifier>{2265D140-087C-44BC-9CAB-453A515AB3D0}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="src\features\magic">
+      <UniqueIdentifier>{07EF3A77-0388-4C77-98C9-1FA9D9BFAAAC}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="src\render">
+      <UniqueIdentifier>{0E18880F-2BE0-485C-ADC5-4464B5D3D6C7}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="src\ui">
+      <UniqueIdentifier>{156AD553-3D6A-4E71-AD60-E80FF814FE4C}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="src\config">
+      <UniqueIdentifier>{04410255-346E-48B7-A023-9FBFAF65E71A}</UniqueIdentifier>
+    </Filter>
+  </ItemGroup>
+  <ItemGroup>
+    <ClCompile Include="src\dllmain.cpp">
+      <Filter>src</Filter>
+    </ClCompile>
+    <ClInclude Include="src\core\Hook.h">
+      <Filter>src\core</Filter>
+    </ClInclude>
+    <ClCompile Include="src\core\Hook.cpp">
+      <Filter>src\core</Filter>
+    </ClCompile>
+    <ClCompile Include="src\core\Hook_ImGui.cpp">
+      <Filter>src\core</Filter>
+    </ClCompile>
+    <ClCompile Include="src\core\Hook_Present.cpp">
+      <Filter>src\core</Filter>
+    </ClCompile>
+    <ClInclude Include="src\core\Memory.h">
+      <Filter>src\core</Filter>
+    </ClInclude>
+    <ClInclude Include="src\core\Game.h">
+      <Filter>src\core</Filter>
+    </ClInclude>
+    <ClInclude Include="src\core\Diagnostics.h">
+      <Filter>src\core</Filter>
+    </ClInclude>
+    <ClCompile Include="src\core\Game.cpp">
+      <Filter>src\core</Filter>
+    </ClCompile>
+    <ClCompile Include="src\core\Game_Camera.cpp">
+      <Filter>src\core</Filter>
+    </ClCompile>
+    <ClCompile Include="src\core\Diagnostics.cpp">
+      <Filter>src\core</Filter>
+    </ClCompile>
+    <ClInclude Include="src\sdk\Offsets.h">
+      <Filter>src\sdk</Filter>
+    </ClInclude>
+    <ClInclude Include="src\sdk\UE4_Types.h">
+      <Filter>src\sdk</Filter>
+    </ClInclude>
+    <ClInclude Include="src\sdk\UE4_W2S.h">
+      <Filter>src\sdk</Filter>
+    </ClInclude>
+    <ClInclude Include="src\sdk\UE4_FName.h">
+      <Filter>src\sdk</Filter>
+    </ClInclude>
+    <ClInclude Include="src\sdk\ItemClasses.h">
+      <Filter>src\sdk</Filter>
+    </ClInclude>
+    <ClInclude Include="src\sdk\Actors.h">
+      <Filter>src\sdk</Filter>
+    </ClInclude>
+    <ClCompile Include="src\sdk\Actors_Chars.cpp">
+      <Filter>src\sdk</Filter>
+    </ClCompile>
+    <ClCompile Include="src\sdk\Actors_Projectiles.cpp">
+      <Filter>src\sdk</Filter>
+    </ClCompile>
+    <ClCompile Include="src\sdk\Actors_Items.cpp">
+      <Filter>src\sdk</Filter>
+    </ClCompile>
+    <ClInclude Include="src\features\esp\ESP.h">
+      <Filter>src\features\esp</Filter>
+    </ClInclude>
+    <ClCompile Include="src\features\esp\ESP_Render.cpp">
+      <Filter>src\features\esp</Filter>
+    </ClCompile>
+    <ClInclude Include="src\features\esp\ESP_Characters.h">
+      <Filter>src\features\esp</Filter>
+    </ClInclude>
+    <ClCompile Include="src\features\esp\ESP_Characters.cpp">
+      <Filter>src\features\esp</Filter>
+    </ClCompile>
+    <ClInclude Include="src\features\esp\ESP_Items.h">
+      <Filter>src\features\esp</Filter>
+    </ClInclude>
+    <ClCompile Include="src\features\esp\ESP_Items.cpp">
+      <Filter>src\features\esp</Filter>
+    </ClCompile>
+    <ClInclude Include="src\features\aim\Aimbot.h">
+      <Filter>src\features\aim</Filter>
+    </ClInclude>
+    <ClCompile Include="src\features\aim\Aimbot.cpp">
+      <Filter>src\features\aim</Filter>
+    </ClCompile>
+    <ClCompile Include="src\features\aim\Aimbot_Target.cpp">
+      <Filter>src\features\aim</Filter>
+    </ClCompile>
+    <ClCompile Include="src\features\aim\Aimbot_FOV.cpp">
+      <Filter>src\features\aim</Filter>
+    </ClCompile>
+    <ClInclude Include="src\features\trigger\Triggerbot.h">
+      <Filter>src\features\trigger</Filter>
+    </ClInclude>
+    <ClCompile Include="src\features\trigger\Triggerbot.cpp">
+      <Filter>src\features\trigger</Filter>
+    </ClCompile>
+    <ClInclude Include="src\features\magic\MagicBullet.h">
+      <Filter>src\features\magic</Filter>
+    </ClInclude>
+    <ClCompile Include="src\features\magic\MagicBullet.cpp">
+      <Filter>src\features\magic</Filter>
+    </ClCompile>
+    <ClInclude Include="src\render\Draw.h">
+      <Filter>src\render</Filter>
+    </ClInclude>
+    <ClInclude Include="src\render\Assets.h">
+      <Filter>src\render</Filter>
+    </ClInclude>
+    <ClCompile Include="src\render\Assets.cpp">
+      <Filter>src\render</Filter>
+    </ClCompile>
+    <ClInclude Include="src\ui\Menu.h">
+      <Filter>src\ui</Filter>
+    </ClInclude>
+    <ClCompile Include="src\ui\Menu.cpp">
+      <Filter>src\ui</Filter>
+    </ClCompile>
+    <ClCompile Include="src\ui\Menu_CharacterTab.cpp">
+      <Filter>src\ui</Filter>
+    </ClCompile>
+    <ClCompile Include="src\ui\Menu_ItemTab.cpp">
+      <Filter>src\ui</Filter>
+    </ClCompile>
+    <ClCompile Include="src\ui\Menu_AimTab.cpp">
+      <Filter>src\ui</Filter>
+    </ClCompile>
+    <ClCompile Include="src\ui\Menu_MiscTab.cpp">
+      <Filter>src\ui</Filter>
+    </ClCompile>
+    <ClCompile Include="src\ui\Menu_SettingsTab.cpp">
+      <Filter>src\ui</Filter>
+    </ClCompile>
+    <ClCompile Include="src\ui\Menu_InfoTab.cpp">
+      <Filter>src\ui</Filter>
+    </ClCompile>
+    <ClCompile Include="src\ui\Widgets.cpp">
+      <Filter>src\ui</Filter>
+    </ClCompile>
+    <ClInclude Include="src\ui\Theme.h">
+      <Filter>src\ui</Filter>
+    </ClInclude>
+    <ClInclude Include="src\ui\Widgets.h">
+      <Filter>src\ui</Filter>
+    </ClInclude>
+    <ClInclude Include="src\config\Config.h">
+      <Filter>src\config</Filter>
+    </ClInclude>
+  </ItemGroup>
+</Project>
