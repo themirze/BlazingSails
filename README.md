@@ -27,3 +27,4 @@ Inject `BlazingInternal.dll` into the game process with your preferred injector,
 
 - Run the game in **windowed or borderless** mode; exclusive fullscreen can hide the overlay.
 - Debug logging and the console are compiled out in `Release` builds (`NDEBUG`).
+- This project is for educational purposes only. Cheating in online games will get you banned and violate the game rules.
